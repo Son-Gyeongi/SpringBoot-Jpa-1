@@ -24,10 +24,12 @@ public class MemberService {
     }
 */
 
+/*
     @Autowired
     public void setMemberRepository(MemberRepository memberRepository) {
         this.memberRepository = memberRepository;
     }
+*/
 
     /**
      * 회원 가입

@@ -1,0 +1,19 @@
+spring: # springBoot의 경우 별도의 설정이 없으면 메모리 모드로 테스트 한다.
+#  datasource:
+#    url: jdbc:h2:mem:test # 메모리 모드로 동작, db 띄우지 않고 반복적으로 테스트 가능
+#    username: sa
+#    password:
+#    driver-class-name: org.h2.Driver
+#
+#  jpa:
+#    hibernate:
+#      ddl-auto: create
+#    properties:
+#      hibernate:
+#        show_sql: true
+#        format_sql: true
+
+logging:
+  level:
+    org.hibernate.sql: debug
+    org.hibernate.orm.jdbc.bind: trace
