@@ -1,6 +1,6 @@
 package jpabook.jpashop.repository;
 
-import com.querydsl.core.types.dsl.BooleanExpression;
+//import com.querydsl.core.types.dsl.BooleanExpression;
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.TypedQuery;
 import jakarta.persistence.criteria.*;
